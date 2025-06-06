@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class NotificationService {
-  private apiUrl = 'https://trabajopoo-production.up.railway.app/notificaciones';
+  private apiUrl = 'https://trabajopoo-production.up.railway.app/notifications';
 
   constructor(private http: HttpClient) {}
 
